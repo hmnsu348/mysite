@@ -1,3 +1,3 @@
 FROM hmnsu348/my-first-image
-ADD 5.txt /root/
+ADD index.html /var/www/html
 ENTRYPOINT apachectl -D FOREGROUND
